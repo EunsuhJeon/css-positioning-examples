@@ -33,7 +33,6 @@ nav img{
 }
 
 .spacer{
-    /* border: 1px solid yellow; */
     display: inline-block;
     /* Parent width - logo width - Menu <ul> width */
     width: calc(100% - 40px - 290px);
@@ -109,7 +108,6 @@ nav ul li a:active{
 
 #services-menu a{
     display: inline-block;
-    /* 요거 뭐지? 찾아보기 */
     white-space: nowrap;
 }
 
@@ -118,10 +116,7 @@ main{
     display: block;
     padding-top: 110px;
     padding-bottom: 160px;
-    /* 100% - header - footer */
-    /* min-height: calc(100% - 110px - 160px); */
     min-height: 100vh;
-    /* position: relative; */
 }
 
 main div{
@@ -240,7 +235,6 @@ footer{
     width: 100%;
     text-align: center;
     background-color: #1f1f1f;
-    /* color: white; */
 }
 
 #footer-line{
